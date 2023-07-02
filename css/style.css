@@ -45,6 +45,10 @@ body {
   background-color: #068d4e4b !important;
 }
 
+.modal-open {
+  overflow: scroll !important;
+}
+
 .testimonial-pic {
   height: 100px;
 }

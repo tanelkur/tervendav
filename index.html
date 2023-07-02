@@ -31,6 +31,12 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #555;
       }
+
+      @media (max-width: 992px) {
+        ::-webkit-scrollbar {
+          width: 0px;
+        }
+      }
     </style>
   </head>
 
@@ -64,13 +70,31 @@
           <div class="collapse navbar-collapse mx-4" id="navbarsExample04">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Avaleht</a>
+                <a class="nav-link" href="#"
+                  ><span
+                    data-bs-target="#navbarsExample04"
+                    data-bs-toggle="collapse"
+                    >Avaleht</span
+                  ></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#products">Tooted</a>
+                <a class="nav-link" href="#products"
+                  ><span
+                    data-bs-target="#navbarsExample04"
+                    data-bs-toggle="collapse"
+                    >Tooted</span
+                  ></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#order">Tellimine</a>
+                <a class="nav-link" href="#order"
+                  ><span
+                    data-bs-target="#navbarsExample04"
+                    data-bs-toggle="collapse"
+                    >Tellimine</span
+                  ></a
+                >
               </li>
             </ul>
           </div>
@@ -171,7 +195,6 @@
           <h2 class="tooted">Tooted</h2>
         </div>
       </div>
-
       <div class="container d-flex justify-content-center align-items-center">
         <div class="row">
           <!-- 1 -->
