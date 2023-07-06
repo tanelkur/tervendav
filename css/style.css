@@ -76,6 +76,9 @@ body {
 .modal-open {
   overflow: scroll !important;
 }
+.body.modal-open {
+  overflow: visible;
+}
 
 .testimonial-pic {
   height: 100px;
