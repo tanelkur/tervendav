@@ -1,5 +1,5 @@
 .gradient-background {
-  background: linear-gradient(300deg, #2ac403, #04ca88, #baf1cb);
+  background: linear-gradient(300deg, #aefc9a, #1fcf7d, #baf1cb);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
@@ -50,7 +50,12 @@ html {
 }
 
 body {
+  font-family: 'Alegreya Sans', sans-serif;
   background-color: #f1f1f1;
+}
+
+.flower-font {
+  font-family: 'Indie Flower', cursive;
 }
 
 .space {
@@ -71,7 +76,7 @@ body {
   width: 3rem;
   height: 3rem;
   border-radius: 0.75rem;
-  background-color: #068d4e4b !important;
+  background-color: #1fcf7d !important;
 }
 
 .testimonial-pic {
